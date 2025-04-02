@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfnycpayroll-dhwanise"
+		},
+		"AzureDataLake_LinkedService_accountKey": {
+			"value": ""
+		},
+		"SQLDatabase_2021_LinkedService_password": {
+			"value": ""
+		},
+		"AzureDataLake_LinkedService_properties_typeProperties_url": {
+			"value": "https://adlsnycpayrolldhwanise.dfs.core.windows.net/"
+		},
+		"SQLDatabase_2021_LinkedService_properties_typeProperties_server": {
+			"value": "sqlservernycpayroll-dhwanise.database.windows.net"
+		},
+		"SQLDatabase_2021_LinkedService_properties_typeProperties_database": {
+			"value": "db_nycpayroll"
+		},
+		"SQLDatabase_2021_LinkedService_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		}
+	}
+}
