@@ -1,0 +1,9 @@
+{
+	"name": "adfnycpayroll-dhwanise",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0890929a-6a61-4721-b05f-359b92a9e45d",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
